@@ -1,0 +1,23 @@
+def sum_of_numbers(numbers):
+    return sum(numbers)
+
+numbers = [1, 2, 3, 4, 5]
+print("sum:", sum_of_numbers(numbers))
+
+input("Press Enter to close...")
+
+def average_of_numbers(numbers):
+    return sum(numbers) / len(numbers) if numbers else 0
+
+numbers = [1, 2, 3, 4, 5]
+print("average:", average_of_numbers(numbers))
+
+input("Press Enter to close...")
+
+def max_number(numbers):
+    return max(numbers) if numbers else None
+
+numbers = [1, 2, 3, 4, 5]
+print("largest number:", max_number(numbers))
+
+input("Press Enter to close...")
